@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_svg:
+  group_button:
 
 dev_dependencies:
   flutter_test:
