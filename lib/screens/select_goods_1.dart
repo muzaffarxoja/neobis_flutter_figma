@@ -14,14 +14,16 @@ class SelectGoods1 extends StatelessWidget {
         child: Column(
           children: [
             Text(
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               'Выбрат товары',
             ),
+            SizedBox(height: 10),
             Row(children: [
               Expanded(
                 child: TextField(
                   decoration: InputDecoration(
                     enabledBorder: const OutlineInputBorder(
-                        borderSide: BorderSide(width: 2.0)),
+                        borderSide: BorderSide(width: 1)),
                     hintText: 'Поиск',
                     //labelText: "Email",
                     prefixIcon: Icon(Icons.find_in_page_rounded),
