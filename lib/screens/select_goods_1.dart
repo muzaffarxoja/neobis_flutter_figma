@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:group_button/group_button.dart';
+import 'package:nobis/widgets/my_card.dart';
+import 'dart:ffi';
 
 class SelectGoods1 extends StatelessWidget {
   const SelectGoods1({super.key});
@@ -40,7 +43,7 @@ class SelectGoods1 extends StatelessWidget {
                 ),
                 IconButton(
                   onPressed: () {},
-                  icon: const Icon(Icons.settings_accessibility),
+                  icon: const Icon(Icons.toggle_off_outlined),
                 ),
               ],
             ),
@@ -61,6 +64,15 @@ class SelectGoods1 extends StatelessWidget {
               ),
               isRadio: true,
               buttons: ["моя точка", "Приход 12г", "Контейнер 454"],
+            ),
+            MyCard(
+              cardImage: 'image1.png',
+              id: 123456,
+              description: 'futbolka',
+              buy: 500,
+              sell: 1200,
+              onStock: 54,
+              maxStock: 120,
             )
           ],
         ),
