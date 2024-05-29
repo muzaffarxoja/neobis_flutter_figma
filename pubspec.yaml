@@ -12,6 +12,7 @@ dependencies:
   flutter_svg:
   group_button:
   ffi: 
+  badges:
 
 dev_dependencies:
   flutter_test:
@@ -20,9 +21,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  #assets:
-  #  - assets/images/
-  #  - assets/icons/
+
+
+assets:
+  - assets/images/
+  - assets/icons/
   # fonts:
   #   - family: Schyler
   #     fonts:

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:group_button/group_button.dart';
 import 'package:nobis/widgets/my_card.dart';
-import 'dart:ffi';
+//import 'dart:ffi';
 
 class SelectGoods1 extends StatelessWidget {
   const SelectGoods1({super.key});
@@ -66,12 +66,21 @@ class SelectGoods1 extends StatelessWidget {
               buttons: ["моя точка", "Приход 12г", "Контейнер 454"],
             ),
             MyCard(
-              cardImage: 'image1.png',
+              cardImage: 'assets/images/image1.png',
               id: 123456,
               description: 'futbolka',
               buy: 500,
               sell: 1200,
               onStock: 54,
+              maxStock: 120,
+            ),
+            MyCard(
+              cardImage: 'assets/images/image1.png',
+              id: 6664,
+              description: 'bryuki',
+              buy: 600,
+              sell: 1300,
+              onStock: 35,
               maxStock: 120,
             )
           ],

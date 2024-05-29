@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nobis/screens/select_goods_1.dart';
+import 'package:nobis/screens/home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SelectGoods1(),
+      home: const Home(),
     );
   }
 }
